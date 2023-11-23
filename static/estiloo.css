@@ -1,19 +1,40 @@
 body {
+
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
     text-align: center;
     padding: 50px;
+    background-image: url("imag1.jpg");
+}
+.influ-card{
+    width: 500px;
+    align-items: center;
+    margin-left: 350px;
 }
 
-.pokemon-card {
-    background-color: #fff;
+.cadinflu {
+    background-color: #aeeffa;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     display: inline-block;
     margin: 10px;
+
+
 }
 
 img {
     max-width: 200px;
+}
+.botao{
+    color: #aeeffa;
+    border-radius: 10px;
+    background-color:black;
+    margin: 10px;
+}
+
+input{
+    display: block;
+    width: calc(100% - 14px);
+    padding: 7px;
+    margin-bottom: 14px;
 }
