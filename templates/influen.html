@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ Titulo }}</title>
+    <link rel="stylesheet" href="static/estilo.css">
+</head>
+<body>
+    <div>
+        <h1>{{ Titulo }}</h1>
+    </div>
+    {% for influence in ListaInfluence %}
+    <div class="influence-card">
+        <h2>Nome: {{ influence.nome }}</h2>
+        <img src="/static/influence.png">
+        <p>plataformas: {{ influence.plataformas }}</p>
+        <p>seguidores: {{ influence.seguidores }}</p>
+        <p>interesse: {{ influence.interesse }}</p>
+        <br>
+    </div>
+    {% endfor %}
+
+
+
+</body>
+</html>
